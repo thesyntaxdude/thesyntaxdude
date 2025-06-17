@@ -9,12 +9,18 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+
       - name: Install Node.js
         uses: actions/setup-node@v3
         with:
           node-version: '16'
+
+      - name: Install rss-parser
+        run: npm install rss-parser
+
       - name: Fetch latest Dev.to posts
         run: node .github/scripts/fetch_devto.js
+
       - name: Commit and push changes
         uses: stefanzweifel/git-auto-commit-action@v4
         with:
