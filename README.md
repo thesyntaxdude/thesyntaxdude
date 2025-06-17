@@ -21,10 +21,10 @@
 ---
 
 ### 📝 Latest Dev.to Articles
-<!-- DEVTO START -->
+<!-- BLOG-POST-LIST:START -->
 <!-- Replace automatically with GitHub Action -->
 <a href="https://dev.to/thesyntaxdude" target="_blank">Loading latest articles...</a>
-<!-- DEVTO END -->
+<!-- BLOG-POST-LIST:END -->
 
 ---
 
