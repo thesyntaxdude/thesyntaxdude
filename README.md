@@ -22,8 +22,7 @@
 
 ### 📝 Latest Dev.to Articles
 <!-- BLOG-POST-LIST:START -->
-<!-- Replace automatically with GitHub Action -->
-<a href="https://dev.to/thesyntaxdude" target="_blank">Loading latest articles...</a>
+- [How I Built A Contrast Checker For Accessibility In JavaScript](https://dev.to/thesyntaxdude/how-i-built-a-contrast-checker-for-accessibility-in-javascript-2c6m)
 <!-- BLOG-POST-LIST:END -->
 
 ---
