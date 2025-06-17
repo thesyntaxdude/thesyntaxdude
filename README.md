@@ -22,7 +22,12 @@
 
 ### 📝 Latest Dev.to Articles (With Images)
 <!-- DEVTO:START -->
-<!-- This section will be automatically populated -->
+
+<a href="https://dev.to/thesyntaxdude/how-i-built-a-contrast-checker-for-accessibility-in-javascript-2c6m" target="_blank" style="display:inline-block;margin:10px;text-decoration:none;">
+      <img src="https://res.cloudinary.com/practicaldev/image/fetch/s--default--/c_imagga_scale,f_auto,fl_progressive,h_250,q_auto,w_400/https://dev.to/social_previews/default.png" alt="How I Built A Contrast Checker For Accessibility In JavaScript" width="300" style="border-radius:8px"/><br/>
+      <strong>How I Built A Contrast Checker For Accessibility In JavaScript</strong>
+    </a>
+
 <!-- DEVTO:END -->
 
 ---
