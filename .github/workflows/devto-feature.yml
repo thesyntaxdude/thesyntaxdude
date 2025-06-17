@@ -1,28 +1,31 @@
-name: Update Dev.to with Images
+name: 📰 Update Dev.to Articles
+
 on:
   schedule:
-    - cron: '0 * * * *'  # run every hour
+    - cron: '0 * * * *'  # Runs every hour
   workflow_dispatch:
 
 jobs:
   update-readme:
     runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
 
-      - name: Install Node.js
+    steps:
+      - name: ⬇️ Checkout repository
+        uses: actions/checkout@v4
+
+      - name: 🧰 Setup Node.js
         uses: actions/setup-node@v3
         with:
           node-version: '16'
 
-      - name: Install rss-parser
-        run: npm install rss-parser
+      - name: 📦 Install dependencies
+        run: npm install rss-parser node-fetch
 
-      - name: Fetch latest Dev.to posts
+      - name: 🧠 Run Dev.to fetch script
         run: node .github/scripts/fetch_devto.js
 
-      - name: Commit and push changes
+      - name: ✅ Commit and push if changes exist
         uses: stefanzweifel/git-auto-commit-action@v4
         with:
-          commit_message: "chore: update dev.to articles"
+          commit_message: "chore: update Dev.to articles with images"
           branch: ${{ github.ref_name }}
