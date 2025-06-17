@@ -1,7 +1,9 @@
 const fs = require('fs');
 const Parser = require('rss-parser');
 const parser = new Parser();
-const fetch = require('node-fetch');
+
+// Dynamically import node-fetch (ESM-compatible)
+const fetch = (...args) => import('node-fetch').then(({ default: fetch }) => fetch(...args));
 
 async function getFeaturedImage(url) {
   try {
