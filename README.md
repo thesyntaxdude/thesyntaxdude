@@ -20,23 +20,31 @@
 
 ---
 
-### 📝 Latest Dev.to Articles
-<!-- BLOG-POST-LIST:START -->
-- [How I Built A Contrast Checker For Accessibility In JavaScript](https://dev.to/thesyntaxdude/how-i-built-a-contrast-checker-for-accessibility-in-javascript-2c6m)
-<!-- BLOG-POST-LIST:END -->
+### 📝 Latest Dev.to Articles (With Images)
+<!-- DEVTO:START -->
+<!-- This section will be automatically populated -->
+<!-- DEVTO:END -->
 
 ---
 
-### 📊 GitHub Stats
-<p align="left">
-  <img src="https://github-readme-stats.vercel.app/api?username=thesyntaxdude&show_icons=true&theme=tokyonight&count_private=true" height="165"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=thesyntaxdude&layout=compact&theme=tokyonight"/>
+### 📊 GitHub Stats (Animated)
+
+<p align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=thesyntaxdude&theme=tokyonight" alt="GitHub Streak"/>
+</p>
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=thesyntaxdude&show_icons=true&theme=tokyonight&count_private=true&include_all_commits=true&hide=issues" alt="Stats" />
+</p>
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=thesyntaxdude&layout=compact&theme=tokyonight" alt="Top Langs"/>
 </p>
 
 ---
 
 ### 🏆 GitHub Trophies
-<p align="left">
+<p align="center">
   <img src="https://github-profile-trophy.vercel.app/?username=thesyntaxdude&theme=tokyonight&column=7"/>
 </p>
 
@@ -50,6 +58,6 @@
 ---
 
 ### 🛰️ Visitor Badge
-<p>
+<p align="left">
   <img src="https://komarev.com/ghpvc/?username=thesyntaxdude&style=flat-square&color=blue" alt="visitor badge"/>
 </p>
