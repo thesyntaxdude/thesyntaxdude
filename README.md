@@ -20,7 +20,7 @@
 
 ---
 
-### 📝 Latest Dev.to Articles (With Images)
+### 📝 Latest Dev.to Articles
 <!-- DEVTO:START -->
 
 
